@@ -1,0 +1,36 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    /*width: 20vw;*/
+    align-items: center;
+}
+
+input {
+    border: none;
+}
+
+.input {
+    width: 22vw;
+    height: 2vw;
+    color: #fff;
+    margin-bottom: 1.5vw;
+    font-size: .5em;
+}
+
+.input::placeholder {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+.generate-button {
+    width: 15vw;
+    height: 4vw;
+    font-size: 1.2vw;
+}
+
+button {
+    border: transparent;
+    outline: none;
+}
